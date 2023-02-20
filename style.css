@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 85vh;
+}
+
+nav {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+}
+
+nav .nav-item {
+    margin-right: 3rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 50% 40% 10%;
+}
+
+.paint-container {
+    display: grid;
+    grid-template-areas:
+        "margin margin paint paint paint paint";
+    position: relative;
+}
+
+.paint-container::after {
+    content: 'sadasd';
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: linear-gradient(120deg, #0D0D0D 33.05%, rgba(0, 0, 0, 0) 85.88%);
+    box-sizing: border-box;
+    grid-area: paint;
+    margin-bottom: 1rem;
+}
+
+.paint-container::before {
+    content: 's';
+    color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: linear-gradient(120deg, #0D0D0D 50.05%, rgba(0, 0, 0, 0) 85.88%);
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+}
+
+.paint-container::after div {
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.paint-margin {
+    grid-area: margin;
+}
+
+.paint-main {
+    grid-area: paint;
+    display: grid;
+    grid-template-rows: 1rem auto;
+}
+
+.paint-paint {
+    background-image: url("images/Declaration_of_the_Rights_of_Man_and_of_the_Citizen_in_1789.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.event-container {
+    padding: 5rem 10% 0 10%;
+    display: grid;
+    grid-template-rows: 60% 40%;
+}
+
+.event-cards-container {
+    overflow: hidden;
+    box-sizing: content-box;
+    position: relative;
+}
+
+.current-card {
+    width: 90% !important;
+    display: block !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.prev-card {
+    opacity: 0.6;
+    display: block !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -80%);
+}
+
+.next-card {
+    opacity: 0.6;
+    display: block !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -20%);
+}
+
+.carousel-item {
+    box-sizing: content-box;
+    height: 50%;
+    width: 80%;
+    margin: 0 auto;
+    display: none;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    height: 60%;
+    width: 100%;
+}
+
+.carousel-item p {
+    height: auto;
+    overflow: hidden;
+}
+
+.event-intro-container {
+    display: grid;
+    grid-template-rows: 1.5rem auto 2rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.event-intro-container h3 {}
+
+.event-intro-container p {}
+
+.event-intro-container button {
+    margin-top: 0.5rem;
+}
+.paint-intro-container {
+    display: none;
+}
+.time-container {
+    padding-top: 3rem;
+}
+
+.scroller-container {
+    height: 55vh;
+    max-width: 4rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 20% auto 20%;
+}
+
+.scroller-container .scroller {
+    position: relative;
+}
+
+.scroller-container .scroller::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-left: 4px solid black;
+    height: 100%;
+}
+#vertical-time {
+    color: blue;
+    font-size: 2rem;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.time-btn {
+    display: block;
+    width: 100%;
+}
+
+.horizontal-time-container {
+    position: relative;;
+    margin: 0.5rem auto 0 auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    display: none;
+}
+
+.horizontal-time-container .scroller::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-bottom: 3px solid black;
+    width: 60%;
+}
+#horizontal-time {
+    color: blue;
+    font-size: 1.5rem;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1200px) {
+    nav {
+        margin-left: 3rem;
+    }
+
+    .paint-container {
+        grid-template-areas:
+            "margin paint paint paint paint paint paint paint paint";
+    }
+}
+
+@media (max-width: 600px) {
+    nav {
+        margin-left: 5%;
+    }
+
+    main {
+        width: 90%;
+        margin: 0 auto;
+        grid-template-columns: none;
+        grid-template-rows: 60% auto;
+    }
+
+    .time-container {
+        display: none;
+    }
+
+    .paint-container {
+        grid-template-areas:
+            "margin"
+            "paint";
+        grid-template-rows: 2rem auto;
+    }
+
+    .paint-main {
+        grid-template-rows: 0 100%;
+    }
+
+    .paint-container::after {
+        margin-bottom: 0;
+        background: linear-gradient(0, #0D0D0D 20.05%, rgba(0, 0, 0, 0) 100.88%);
+    }
+
+    .paint-container::before {
+        display: none;
+    }
+
+    .event-container {
+        padding: 0 0 0 0;
+        display: grid;
+        grid-template-rows: 50% 50%;
+    }
+
+    .event-intro-container {
+        padding: 0;
+    }
+
+    .carousel-item {
+        width: 95% !important;
+        height: 100% !important;
+    }
+
+    .current-card {
+        width: 100% !important;
+    }
+
+    .next-card {
+        display: none !important;
+    }
+
+    .prev-card {
+        display: none !important;
+    }
+
+    .horizontal-time-container {
+        display: grid;
+    }
+}
