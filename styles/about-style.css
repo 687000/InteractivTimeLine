@@ -1,0 +1,26 @@
+.title {
+  background-image: none;
+}
+.title::after {
+  width: 100vw;
+  height: 90vh;
+  opacity: 0.2;
+}
+.title .title_bar h1 {
+  font-size: 60px;
+  text-align: left;
+  padding-left: 10vw;
+}
+.title .title_bar p {
+  padding-top: 2rem;
+}
+@media (max-width: 800px) {
+  .title .title_bar h1 {
+  font-size: 40px;
+  text-align: left;
+  padding-left: 5vw;
+}
+.title .title_bar p {
+  width: 70vw;
+}
+}

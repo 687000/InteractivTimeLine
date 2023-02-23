@@ -3,8 +3,7 @@ const paintings = [
     "image": "images/paints/the-tennis-court-oath-15696.jpg",
     "title": "The Tennis Court Oath",
     "author": "Jacques-Louis David 1794",
-    "intro":"painting 1 intro",
-    "content":"event 1 content",
+    "content":"The painting \"The Tennis Court Oath\" was created by French painter Jacques-Louis David in 1794. In the painting, the deputies are shown standing in a crowded tennis court, raising their hands to take the oath. David's painting was not intended as a literal representation of the event, but rather as a powerful symbol of the struggle for democracy and freedom. It became one of the most iconic images of the French Revolution.",
     "link":"https://en.wikipedia.org/wiki/The_Tennis_Court_Oath_(David)",
     "eventBlock":1
   },
@@ -12,8 +11,7 @@ const paintings = [
     "image": "images/paints/Prise_de_la_Bastille.jpg",
     "title": "The Storming of the Bastille",
     "author": "Jean-Pierre-Louis-Laurent Houël 1793",
-    "intro":"painting 2 intro",
-    "content":"event 2 content",
+    "content":"The painting \"The Storming of the Bastille\" was created by French artist Jean-Pierre-Louis-Laurent Houël in 1793. In the painting, we see the chaotic scene of the Bastille being overrun by the angry mob. Houël's painting captures the spirit of the early days of the Revolution, when the people of France rose up against the old order and fought for liberty, equality, and fraternity.",
     "link":"https://en.wikipedia.org/wiki/File:Prise_de_la_Bastille.jpg",
     "eventBlock":2
   }, 
@@ -21,8 +19,7 @@ const paintings = [
     "image": "images/paints/Declaration_of_the_Rights_of_Man_and_of_the_Citizen_in_1789.jpg",
     "title": "Declaration of the Rights of Man and of the Citizen",
     "author": "Jean-Jacques-François Le Barbier 1791",
-    "intro":"painting 3 intro",
-    "content":"event 3 content",
+    "content":"The painting \"Declaration of the Rights of Man and of the Citizen\” was created by French artist the artist Jean-Jacques-François Le Barbier. The allegorical figures within the paintings representing liberty and new futures France gained after the \"Declaration of the Rights of Man and of the Citizen\". The painting reflects the optimism and idealism of the early years of the Revolution.",
     "link":"https://commons.wikimedia.org/wiki/File:Declaration_of_the_Rights_of_Man_and_of_the_Citizen_in_1789.jpg",
     "eventBlock":3
   },
@@ -30,8 +27,7 @@ const paintings = [
     "image": "images/paints/Louis_XVI_stopped_at_Varennes.jpeg",
     "title": "Louis XVI stopped at Varennes",
     "author": "Mariano Bovi 1796",
-    "intro":"painting 4 intro",
-    "content":"event 4 content",
+    "content":"The painting \"Louis XVI stopped at Varennes\" was created by Italian artist Mariano Bovi in 1796. The painting shows the moment when King Louis XVI and his family were stopped at Varennes as they attempted to flee the country. The figures are depicted in a tense with the king and queen looking out anxiously from the carriage, and armed men surrounding them. ",
     "link":"https://www.nationalgalleries.org/art-and-artists/140793/louis-xvi-stopped-varennes",
     "eventBlock":4
   },
@@ -39,8 +35,7 @@ const paintings = [
     "image": "images/paints/Jacques_Bertaux_-_Prise_du_palais_des_Tuileries_-_1793.jpg",
     "title": "Storming of the Tuileries",
     "author": "Jean Duplessis-Bertaux 1793",
-    "intro":"painting 5 intro",
-    "content":"event 5 content",
+    "content":"The painting \"Storming of the Tuileries\" was created by French artist Jean Duplessis-Bertaux in 1793. The painting shows the moment when a revolutionary mob stormed the Tuileries Palace in Paris on August 10, 1792, in an effort to overthrow the monarchy. The figures are depicted in a chaotic, violent scene, with armed revolutionaries battling against the royal guards. ",
     "link":"https://commons.wikimedia.org/wiki/File:Jacques_Bertaux_-_Prise_du_palais_des_Tuileries_-_1793.jpg",
     "eventBlock":5
   },
@@ -48,8 +43,7 @@ const paintings = [
     "image": "images/paints/Bara_David.jpg",
     "title": "The Death of Young Bara",
     "author": "Jacques-Louis David 1794",
-    "intro":"painting 6 intro",
-    "content":"event 6 content",
+    "content":"The painting \"The Death of Young Bara\" was created by French artist Jacques-Louis David in 1794. The painting depicts the death of Joseph Bara, a young French boy who fought and died for the Republic during the War of the First Coalition.",
     "link":"https://en.wikipedia.org/wiki/The_Death_of_Young_Bara",
     "eventBlock":6
   },
@@ -57,8 +51,7 @@ const paintings = [
     "image": "images/paints/Death_of_Marat_by_David.jpg",
     "title": "The Death of Marat",
     "author": "Jacques-Louis David 1793",
-    "intro":"painting 7 intro",
-    "content":"event 7 content",
+    "content":"The painting \"The Death of Marat\" was created by French artist Jacques-Louis David in 1793, and is considered one of the most iconic works of art from the French Revolution. In the painting, we see Marat lying dead in his bath, with a quill pen and a piece of paper clutched in his hand. David's painting helped to cement Marat's place in the pantheon of revolutionary heroes.",
     "link":"https://en.wikipedia.org/wiki/The_Death_of_Marat",
     "eventBlock":7
   },
@@ -66,8 +59,7 @@ const paintings = [
     "image": "images/paints/marie-antionette-execution-533483497.jpg",
     "title": "Marie Antoinette Being Taken to Her Execution",
     "author": "William Hamilton 1793",
-    "intro":"painting 8 intro",
-    "content":"event 8 content",
+    "content":"The painting \"Marie Antoinette Being Taken to Her Execution\" was created by British artist William Hamilton in 1794, and depicts the final moments of the former queen of France before her execution during the French Revolution. The figure of the queen is depicted in a stoic and dignified manner, despite the immense emotional turmoil of the moment. ",
     "link":"https://www.worldhistory.org/image/16629/marie-antoinette-being-taken-to-her-execution-16-o/",
     "eventBlock":8
   },
@@ -75,8 +67,7 @@ const paintings = [
     "image": "images/paints/Portrait_of_a_revolutionary.png",
     "title": "Portrait of a revolutionary",
     "author": "Jean-François Sablet 1794",
-    "intro":"painting 9 intro",
-    "content":"event 9 content",
+    "content":"The painting \"Portrait of a Revolutionary\" was created by French artist Jean-Francois Sablet in 1793. The painting depicts an anonymous revolutionary, likely a member of the radical Jacobin party.",
     "link":"https://artsandculture.google.com/asset/portrait-of-a-revolutionary-fran%C3%A7ois-sablet/ywEpA-sseczDLQ?hl=en",
     "eventBlock":9
   },
@@ -85,7 +76,7 @@ const paintings = [
     "title": "Soldiers Killed in Battle Stripped of Their Weapons, Their Uniforms and Their Personal Belongings During the Italian Campaign in 1797",
     "author": "Nicolas Antoine Taunay 1797",
     "intro":"painting 10 intro",
-    "content":"event 10 content",
+    "content":"The painting \"Soldiers Killed in Battle Stripped of Their Weapons, Their Uniforms and Their Personal Belongings During the Italian Campaign in 1797\" was created by French artist Nicolas Antoine Taunay in 1804. The painting depicts a scene of battlefield aftermath during the Italian Campaign. The composition has an emphasis on the brutality and inhumanity of war.",
     "link":"https://www.wikiart.org/en/nicolas-antoine-taunay/soldiers-killed-in-battle-stripped-of-their-weapons-their-uniforms-and-their-personal-belongings-1824",
     "eventBlock":10
   },
@@ -93,8 +84,7 @@ const paintings = [
     "image": "images/paints/napoleon_bonaparte_portrait.jpg",
     "title": "Portrait of Napoléon Bonaparte, The First Council",
     "author": "Jean Auguste Dominique Ingres 1804",
-    "intro":"painting 11 intro",
-    "content":"event 11 content",
+    "content":"The painting \"Portrait of Napoléon Bonaparte, The First Council\" was created by French Neoclassical artist Jean-Auguste-Dominique Ingres in 1804. The figure of Napoleon is depicted with an air of authority and power, which serves to reinforce his status as a strong and capable leader.",
     "link":"https://www.wikiart.org/en/jean-auguste-dominique-ingres/portrait-of-napol%C3%A9on-bonaparte-the-first-council-1804",
     "eventBlock":11
   },
@@ -445,7 +435,6 @@ function updatePainting(){
 }
 function updatePaintingInfor(){
   const paintIndex=getCurrentPainting();
-  document.querySelector('.paint-intro-container h3').innerHTML=paintings[paintIndex].intro;
   document.querySelector('.paint-intro-container p').innerHTML=paintings[paintIndex].content;
   paintingContainer.href=paintings[paintIndex].link;
 }
@@ -455,7 +444,6 @@ function getCurrentPainting(){
 }
 
 const curtain1=document.getElementById("curtain_01");
-console.log(curtain1);
 let updateCoordinate=false;
 window.addEventListener('mousemove', (e) => {
   let mouseX = e.clientX;

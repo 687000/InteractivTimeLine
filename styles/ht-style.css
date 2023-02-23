@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700;6..96,800;6..96,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
 :root {
     --color-main-black: #0D0D0D;
     --color-main-white: #E5E5E5;
@@ -92,7 +94,7 @@ nav a{
 .event-intro-container p {
     font-family: var(--font-sans);
     font-size: var(--font-ssm);
-    font-weight: var(--font-thin);
+    font-weight: var(--font-regular);
     opacity: 0.7;
 }
 .carousel-item p, .carousel-item h3{
@@ -139,6 +141,7 @@ nav .nav-item {
     height: 100vh;
     width: 15vw;
     transition:0.5s;
+    filter: brightness(0.7) contrast(130%) opacity(98%);
 }
 
 main {
@@ -169,6 +172,15 @@ main {
 .painting-banner p{
 }
 
+.paint-intro-container {
+    position: relative;
+}
+.paint-intro-container p{
+    font-family: var(--font-sans);
+    font-weight: var(--font-thin);
+    position: absolute;
+    top: 40%;
+}
 .paint-margin {
     grid-area: margin;
 }
@@ -294,6 +306,7 @@ main {
 .paint-intro-container {
     display: none;
 }
+
 .time-container {
     padding-top: 3rem;
 }
@@ -485,6 +498,10 @@ main {
     .painting-banner h3{
     }
     .painting-banner p{
+    }
+    .paint-intro-container p {
+     top:0!important;
+     font-size: var(--font-sm);
     }
     .event-container {
         padding: 0 0 0 0;

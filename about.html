@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/ht-style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/about-style.css">
+    <title>About</title>
+</head>
+<body>
+    <div class="cover-deco">
+        <img src="images/the-red-curtain02.png" alt="" id="curtain_02">
+    </div>
+    <nav>
+        <div style="margin-top: 0; padding-top: 1rem">
+         <div class="nav-item">
+            <a href="http://liujiani.net/aau/timeline">Home</a>
+        </div>                
+        <div class="nav-item">
+            <a href="http://liujiani.net/aau/timeline/horizontal-timeline.html">Detailed Timeline</a>
+        </div>            
+        <div class="nav-item">
+            <a href="http://liujiani.net/aau/ixd605/timeline">Vertical Timeline</a>
+        </div>
+        <div class="nav-item">
+            <a href="http://liujiani.net/aau/timeline/about.html"><strong style="color: var(--color-main-white)">About</strong></a>
+        </div>
+        <div>
+    </nav>
+
+    <div class="title">
+        <div class="title_bar">
+            <h1>About This Project</h1>
+            <p>This digital interactive timeline uses Neoclassical art as an index to explore the significant events of the French Revolution. <br/>
+            The project features a diverse range of oil paintings that create a dynamic platform for examining the incidents and developments of this critical period. Users can access detailed information about the paintings and events through the detailed timeline and view the Revolution's progression smoothly through the vertical timeline. <br/>
+            The project aims to provide a valuable resource for anyone interested in this transformative period of history.</p>
+        </div>
+    </div>
+    <script>
+const curtain2=document.getElementById("curtain_02");
+let updateCoordinate=false;
+window.addEventListener('mousemove', (e) => {
+  let mouseX = e.clientX;
+  let mouseY = e.clientY;
+  if (updateCoordinate) {
+    changeCurtains(mouseX,mouseY)
+    updateCoordinate = false;
+  }
+});
+timer = window.setInterval(function(){
+    updateCoordinate = true;
+}, 500);
+function changeCurtains(X,Y,e){
+  const x = ((window.innerWidth- X)/window.innerWidth/5)+1;
+  const y = (window.innerHeight-Y) /40;
+  curtain2.style.transform = `scale(${x},1) translateY(-${y}px)`;  
+}
+    </script>
+</body>
+</html>
